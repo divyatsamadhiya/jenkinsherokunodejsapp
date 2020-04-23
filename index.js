@@ -36,7 +36,7 @@ app.get('/login',(req,res)=>{
 
 //http://localhost:port/
 app.get('/',(req,res)=>{  //getting request from client through url having / in the end of url.
-    res.send('welcome to express app');  //sending response
+    res.send('welcome to heroku express app');  //sending response
 });
 
 //http://localhost:port/index/
